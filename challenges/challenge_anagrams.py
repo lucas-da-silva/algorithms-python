@@ -1,4 +1,6 @@
 def merge_sort(string: str) -> str:
+    "Ordena uma string usando o algoritmo de merge sort"
+
     if len(string) <= 1:
         return string
 
@@ -13,6 +15,8 @@ def merge_sort(string: str) -> str:
 
 
 def merge(left: list[str], right: list[str]) -> list[str]:
+    "Faz o merge de duas listas ordenadas"
+
     result = []
     i, j = 0, 0
 
@@ -31,6 +35,8 @@ def merge(left: list[str], right: list[str]) -> list[str]:
 
 
 def is_anagram(first_string: str, second_string: str) -> tuple:
+    "Verifica se duas strings são anagramas uma da outra"
+
     first_string_lower = first_string.lower() if first_string else ""
     second_string_lower = second_string.lower() if second_string else ""
 

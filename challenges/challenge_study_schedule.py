@@ -1,4 +1,11 @@
-def study_schedule(permanence_period: list[tuple], target_time: int) -> int:
+def study_schedule(
+    permanence_period: list[tuple[int]], target_time: int
+) -> int:
+    """
+    Calcula quantos estudantes estão estudando no mesmo horário alvo em um
+    período de permanência (entrada e saída).
+    """
+
     try:
         studying_at_the_same_time = sum(
             1

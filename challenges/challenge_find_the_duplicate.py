@@ -1,4 +1,6 @@
 def validate_nums(nums: list[int]) -> bool:
+    "Valida se uma lista de números é válida."
+
     try:
         if any(n < 0 for n in nums):
             return False
@@ -9,6 +11,8 @@ def validate_nums(nums: list[int]) -> bool:
 
 
 def find_duplicate(nums: list[int]):
+    "Encontra o número duplicado em uma lista de números."
+
     if not validate_nums(nums):
         return False
 
