@@ -46,7 +46,7 @@ $ git clone git@github.com:lucas-da-silva/algorithms-python.git
 # Entrar no diretório
 $ cd algorithms-python
 
-# Criar ambiente virtul e ativá-lo
+# Criar ambiente virtual e ativá-lo
 $ python3 -m venv .venv && source .venv/bin/activate
 
 # Instalar dependências
